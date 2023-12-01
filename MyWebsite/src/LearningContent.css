@@ -1,0 +1,101 @@
+/* LearningContent.css */
+
+.learning-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px; /* Spacing between cards */
+    overflow-y: scroll; /* Add vertical scrollbar if content overflows */
+    height: 500px; /* Set a fixed height or adjust as needed */
+  }
+  
+  .learning-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .learning-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .learning-card p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .lesson-1-card .count-info {
+    margin-top: 10px;
+  }
+  
+  
+  .lesson-1-card button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .lesson-1-card button:hover {
+    background-color: #0056b3;
+  }
+
+  /* LearningContent.css */
+
+/* Styles for Lesson 2 card */
+.lesson-2-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .lesson-2-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .lesson-2-card p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .lesson-2-card input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .lesson-2-card text {
+    font-size: 24px;
+    color: #000;
+  }
+  
+  .lesson-2-card button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .lesson-2-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .lesson-3-card button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

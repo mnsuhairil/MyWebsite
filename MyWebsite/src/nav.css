@@ -1,0 +1,51 @@
+/* Profile.css */
+
+/* Style the overall profile container */
+.nav-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Style the side navigation bar */
+  .side-nav {
+    width: 200px; /* Set the width of the side nav */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .company-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .side-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .side-nav li {
+    margin-bottom: 10px;
+  }
+  
+  .side-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Style the profile content */
+  .nav-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .nav-content h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
